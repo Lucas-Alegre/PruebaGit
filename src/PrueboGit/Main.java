@@ -21,6 +21,7 @@ public class Main {
 	
 	ArrayList<Facultad> arrayFacu = new ArrayList<Facultad>();
 
+	
 	}
 
 }
