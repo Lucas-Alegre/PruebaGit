@@ -15,11 +15,18 @@ public class Main {
 	Persona persona4 = new Persona("Romero","Ludmila",20);
 	
 	Facultad facu1 = new Facultad(persona1,"Concordia");
-	Facultad facu2 = new Facultad(persona1,"Concordia");
-	Facultad facu3 = new Facultad(persona1,"Concordia");
-	Facultad facu4 = new Facultad(persona1,"Concordia");
+	Facultad facu2 = new Facultad(persona2,"Concordia");
+	Facultad facu3 = new Facultad(persona3,"Concordia");
+	Facultad facu4 = new Facultad(persona4,"Concordia");
 	
 	ArrayList<Facultad> arrayFacu = new ArrayList<Facultad>();
+	arrayFacu.add(facu1);
+	arrayFacu.add(facu2);
+	arrayFacu.add(facu3);
+	arrayFacu.add(facu4);
+	for (int i=0; i<arrayFacu.size(); i++){
+		System.out.println(arrayFacu.get(i).toString());
+	}
 
 	
 	}

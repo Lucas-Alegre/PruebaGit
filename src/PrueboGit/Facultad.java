@@ -28,7 +28,7 @@ public class Facultad {
 
 	@Override
 	public String toString() {
-		return "Facultad [ciudad=" + ciudad + "]";
+		return "Persona [Persona = " + persona +"ciudad=" + ciudad + "]";
 	}
 	
 }
